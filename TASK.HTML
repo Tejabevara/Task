@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>World Tours</title>
+        <link rel="stylesheet" href="TASK.CSS">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="logo">
+                <img src="data:image/png;base64,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" height="350px" width="400px" alt="World Tours">
+            <h3>World Tours</h3>
+            </div>
+            <nav>
+                <ul>
+                    <input type="text" placeholder="Search.." >
+
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Destinations</a></li>
+                    <li><a href="#">Tours</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <button type="submit">Login</button>
+                </ul>
+            </nav>
+        </header> 
+        
+        <div class ="image">
+         
+        </div>
+        <main>
+            <section class="card">
+                <img src="c:\Users\tejes\OneDrive\Desktop\goa.jpg" alt="GOA">
+                <h2>Explore the Beautiful places</h2>
+                <p>Goa is a tiny tourist state located in the western region of India. It it well-known among foreign tourists for its stunning beaches, rich culture and delicious cuisine. From the vibrant beaches of North Goa to the tranquil backwaters of South Goa, the sunny state is a destination that offers something for everyone.</p>
+                <a href="#">Learn More</a>
+            </section>
+            
+            <section class="card">
+                <img src="c:\Users\tejes\OneDrive\Desktop\mal.jpg"alt="Maldives">
+                <h2>Beauty of Maldives</h2>
+                <p>Due to their underwater scenery and clean water, the Maldives is ranked among the best recreational diving destinations of the world, with over 60 local dive sites across the islands. It was also reported to be the world's most desired honeymoon destination, according to a global survey by Agoda.com..</p>
+                <a href="#">Learn More</a>
+            </section>
+            
+            <section class="card">
+                <img src="c:\Users\tejes\OneDrive\Desktop\lakshdweep.jpg" alt="Lakshadweep">
+                <h2>Relax on Tropical Beaches</h2>
+                <p>Lakshadweep, the group of 36 islands is known for its exotic and sun-kissed beaches and lush green landscape. The name Lakshadweep in Malayalam and Sanskrit means 'a hundred thousand islands'. India's smallest Union Territory Lakshadweep is an archipelago consisting of 36 islands with an area of 32 sq km..</p>
+                <a href="#">Learn More</a>
+            </section>
+
+            <section class="card">
+                <img src="c:\Users\tejes\OneDrive\Desktop\andaman.jpg" alt="Andaman Islands">
+                <h2>Speciality of Andaman Islands</h2>
+                <p>The exotic island is a travel paradise for advanced scuba drivers who visit the place to enjoy diving and witness marine life. Because of the black bedrock of the island, it creates a perfect backdrop for richly coloured corals, sponges, and sea anemones. It reflects the richness of different marine species...</p>
+                <a href="#">Learn More</a>
+            </section>
+
+            <section class="card">
+                <img src="c:\Users\tejes\OneDrive\Desktop\pondichery.jpg" alt="Pondichery">
+        
+                <h2>Beauty of pondicherry</h2>
+                <p>One can explore all kinds of cuisines; the speciality being French food, continental delicacies, and traditional south Indian cuisine.Shopping in Pondicherry is however famous for its Ajrakh, Balotra and Sanganer fabrics. A wide range of home furniture are also available. Accessories like ...</p>
+                <a href="#">Learn More</a>
+            </section>
+        </main>
+    
+        <footer>
+            <p><i class="fa-brands fa-facebook"></i> <i class="fa-brands fa-twitter"></i> <i class="fa-brands fa-square-instagram"></i> <i class="fa-solid fa-location-dot"></i> </p>
+           <p>address :  pratika nagar madhapur  <br> <i class="fa-solid fa-phone"></i> 9876543210</p>
+            <p>&copy; 2024 World Tours. All rights reserved.</p>
+        </footer>
+    </body>
+    </html>
+    
+</body>
+</html>

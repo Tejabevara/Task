@@ -1,0 +1,118 @@
+body {
+    
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(243, 244, 245);
+    color: #333;
+}
+
+header {
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/back_our/20190623/ourmid/pngtree-city-courier-road-poster-image_235280.jpg");
+    
+  /*  background-image: linear-gradient(navy rgb(101, 101, 156),white);*/
+    background-color: rgb(149, 255, 255);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    /* background-color: #8a8585; */
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.image {
+    height: 800px;; 
+    border: 2 rgb(139, 174, 189);
+   background: url(https://static.vecteezy.com/system/resources/previews/006/862/352/non_2x/illustration-of-travel-using-as-business-web-template-agency-free-vector.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    text-decoration: solid;
+    font-size: x-large;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo h1{
+    color:#463b3b;
+    /*background-color: #333;*/
+    font-style: italic ;
+}
+.logo h3{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+nav input[type=text] {
+    border: 5px solid #000000;
+    float: center;
+    padding: 5px;
+    border: 2px;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    /* margin-bottom: 150px; */
+}
+
+.card {
+    background-color: #fff;
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center;
+    
+}
+
+.card img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: rgb(129, 179, 199);
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/back_our/20190623/ourmid/pngtree-city-courier-road-poster-image_235280.jpg ");
+    color: #000000;
+    text-align: center;
+    font-size: x-large;
+    text-decoration: solid;
+    padding: 20px;
+    bottom: 0;
+    width: 100%;
+}
